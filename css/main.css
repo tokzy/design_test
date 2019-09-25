@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+.sample {
+    position: absolute;
+    width: 79px;
+    height: 29px;
+    left: 50px;
+    top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.background {
+    background-image:url('../images/bg.svg');
+    position: absolute;
+    height: 577px;
+    width:inherit;
+    left: 0px;
+    top: 0px;
+    background: #00AEB5;
+}
+
+.bg-image-class {
+    position: absolute;
+    max-height:430px;
+    overflow:hidden;
+    margin-left: 128px;
+    margin-top: 147.13px;
+}
+
+.bg-image {
+    width: 420.93px;
+    height: 606.88px;
+    transform: rotate(-2.08deg);
+}
+
+.dot8 {
+    position: absolute;
+    left: 834px;
+    top: 2158px;
+}
+
+.bg-text-1 {
+    width: 457px;
+    height: 88px;
+    left: 664px;
+    top: 199px;
+    line-height:44px;
+    position: absolute;
+    font-family:"Avenir Next", sans-serif !important;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.bg-text-2 {
+    position: absolute;
+    width: 610px;
+    height: 89px;
+    left: 664px;
+    top: 312px;
+    font-family: "Avenir Next", sans-serif !important;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.playstore {
+    position: absolute;
+    width: 150px;
+    height: 44.55px;
+    left: 664px;
+    top: 450px;
+    background: url(../images/playstore.png);
+    background-size:cover;
+}
+.links-list {top:58px;margin-right:51px;}
+
+.links-list li{
+    margin:25px;
+    display:inline-block;
+    font-family: "Avenir Next", sans-serif !important;
+    font-size: 16px;
+    line-height: 22px;
+}
+.links-list li a {
+    text-decoration:none;
+}
+.links-list li a:hover {
+    color:white;
+}
+.signup {
+    width: 104px;
+    height: 35px;
+    background: #00AEB5;
+    border: 0.7px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Avenir Next", sans-serif !important;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding:6px;
+}
+.how-opay {
+    width: 290px;
+    height: 33px;
+    margin-left: 141px;
+    margin-top: 657px;
+    font-family: "Avenir Next", sans-serif !important;
+    font-size: 24px;
+    line-height: 33px;
+    color: #00AEB5;
+}
+
+.piggybank {
+    width: 55px;
+    height: 55px;
+}
+
+.personal-finance {
+    position: absolute;
+    width:200px;
+    height: 31px;
+    left: 141px;
+    top: 786px;
+    font-family:"Avenir Next", sans-serif !important;
+    font-size: 22px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.line {
+    position: absolute;
+    left: 141px;
+    top: 825px;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.line2 {
+    position: absolute;
+    top: 825px;
+    left:463px;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.line3 {
+    position: absolute;
+    top:825px;
+    left:768px;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+
+.line4 {
+    position: absolute;
+    top:825px;
+    left:1100px;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.piggy-text {
+    position: absolute;
+    width: 270px;
+    height: 71px;
+    left: 141px;
+    top: 847px;
+    font-family: "Roboto", sans-serif !important;
+    font-size:18px;
+    line-height: 23px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.business-finances {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 462px;
+    top: 786px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.business-text {
+    position: absolute;
+    width: 270px;
+    height: 71px;
+    left: 462px;
+    top: 847px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.shield-text {
+    position: absolute;
+    width: 270px;
+    height: 71px;
+    left: 767px;
+    top: 847px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.shielder {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 767px;
+    top: 786px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+
+.plane-hd {
+    position: absolute;
+    width:200px;
+    height: 31px;
+    left: 1100px;
+    top: 786px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.plane-text {
+    position: absolute;
+    width: 270px;
+    height: 71px;
+    left: 1100px;
+    top: 847px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.sample-hd {
+    position: absolute;
+    width:200px;
+    height: 33px;
+    left: 388px;
+    top: 1035px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 24px;
+    line-height: 33px;
+    color: #00AEB5;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+.sample-text {
+    position: absolute;
+    width: 284px;
+    height: 141px;
+    left: 388px;
+    top: 1078px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2C3E50;
+    max-width:100%;margin-right:auto;margin-left:auto;
+}
+
+.bar {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 148px;
+    top: 1105px;
+    background: url('../images/hj.png');
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.mobile-pics {
+    position: absolute;
+    left:750px;
+    top: 1100px;
+    background: #FFFFFF;
+}
+
+.compatible {
+    position: absolute;
+    width: 124px;
+    height: 28px;
+    left: 793px;
+    top: 1218px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 20px;
+    line-height: 27px;
+    color: #00AEB5;
+}
+
+.secure {
+    position: absolute;
+    width: 175px;
+    height: 101.03px;
+    left: 1007px;
+    top: 1125px;
+}
+
+.compatible-text {
+    position: absolute;
+    width: 222px;
+    height: 125px;
+    left: 793px;
+    top: 1259px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 15px;
+    line-height: 19px;
+    color: #2C3E50;
+}
+.secure-text {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 1083px;
+    top: 1213px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 20px;
+    line-height: 27px;
+    color: #00AEB5;
+}
+
+.secure-text-2{
+    position: absolute;
+    width: 222px;
+    height: 125px;
+    left: 1083px;
+    top: 1254px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 15px;
+    line-height: 19px;
+    color: #2C3E50;
+}
+
+
+
+
+.book-space {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 348px;
+    top: 1285px;
+    background: #ECF0F1;
+    border-radius: 2px;
+}
+.james {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 540px;
+    top: 1285px;
+    background: url('../images/james.png');
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.book-space2 {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 540px;
+    top: 1465px;
+    background: #ECF0F1;
+    border-radius: 2px;
+}
+
+.laptop {
+    position: absolute;
+    width: 156.23px;
+    height: 119.32px;
+    left: 780.23px;
+    top: 1429px;
+}
+
+.payment-solution {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 791px;
+    top: 1533px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 20px;
+    line-height: 27px;
+    color: #00AEB5;
+}
+
+.pay-text {
+    position: absolute;
+    width: 255px;
+    height: 37px;
+    left: 791px;
+    top: 1574px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2C3E50;
+}
+.android-page {
+    position: absolute;
+    width: 290px;
+    height: 501px;
+    left: 168px;
+    top: 1807px;
+    background: url('../images/android.png');
+}
+.rectangle-box {
+    position: absolute;
+    width: 505px;
+    height: 519px;
+    left: 794px;
+    top: 1807px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.tag {
+    position: absolute;
+    width: 50px;
+    height: 74px;
+    left: 834px;
+    top: 1807px;
+}
+
+.dot1 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 834px;
+    top: 1924px;
+}
+.dot1-text {
+    position: absolute;
+    width: 250px;
+    height: 25px;
+    left: 871px;
+    top: 1918px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+
+.dot2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 834px;
+    top: 1963px;
+}
+.dot2-text {
+    position: absolute;
+    width:270px;
+    height:25px;
+    left: 871px;
+    top: 1957px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+.dot3 {
+    position: absolute;
+    width: 12px;
+    left: 834px;
+    top: 2002px;
+}
+.dot3-text {
+    position: absolute;
+    width: 270px;
+    height: 25px;
+    left: 871px;
+    top: 1996px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+.dot4 {
+    position: absolute;
+    left: 834px;
+    top: 2041px;
+}
+.dot4-text {
+    position: absolute;
+    width: 391px;
+    height: 25px;
+    left: 871px;
+    top: 2035px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+.dot5 {
+    position: absolute;
+    left: 834px;
+    top: 2080px;
+}
+.dot5-text {
+    position: absolute;
+    width:260px;
+    height: 25px;
+    left: 871px;
+    top: 2074px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+.dot6 {
+    position: absolute;
+    left: 834px;
+    top: 2119px;
+}
+.dot6-text {
+    position: absolute;
+    width: 309px;
+    height: 25px;
+    left: 871px;
+    top: 2112px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+.dot7 {
+    position: absolute;
+    left: 834px;
+    top: 2119px;
+}
+.dot7-text {
+    position: absolute;
+    width: 309px;
+    height: 25px;
+    left: 871px;
+    top: 2112px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+}
+.dot8-text {
+    position: absolute;
+    width: 264px;
+    height: 25px;
+    left: 871px;
+    top: 2151px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2C3E50;
+    font-family:"Roboto", sans-serif !important;
+}
+
+.playstore-bottom {
+    position: absolute;
+    width: 104px;
+    height: 31px;
+    left: 834px;
+    top: 2236px;
+    background: url('../images/playstore.png');
+    background-size:cover;
+}
+
+.footer-line {
+    position: absolute;
+    width: 1340px;
+    height: 0px;
+    left: 50px;
+    top: 2456px;
+    border:none;
+    height:0.5px;
+    color:#d7d7db;
+    background-color:#d7d7db;
+}
+.copyright {
+    position: absolute;
+    width: 267px;
+    height: 15px;
+    left: 50px;
+    top: 2496px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2C3E50;
+}
+.faqs {
+    position: absolute;
+    width: 45px;
+    height: 23px;
+    left: 1129px;
+    top: 2496px;
+    font-family:"Roboto", sans-serif !important;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2C3E50;
+}
+.slack {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1197px;
+    top: 2496px;
+}
+.facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1240px;
+    top: 2496px;
+}
+.twitter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1284px;
+    top: 2496px;
+}
+.instagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1327px;
+    top: 2496px;
+}
+
+.linkedin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1370px;
+    top: 2496px;
+}
+.clearfix {
+    top: 340px;
+}
+.lined {
+    position: absolute;
+    width: 2402.38px;
+    height: 345.47px;
+    left: 1843.1px;
+    top: 2200px;
+    border: 0.3px solid rgba(0, 174, 181, 0.4);
+    transform: matrix(-0.98, 0.22, 0.2, 0.98, 0, 0);
+}
+@media(max-width:1380px){
+    .upper,.piggy-text,.business-finances,.line2,.personal-finance,.line,.business-text,.line3,.shielder,.shield-text,.plane-hd,.line4,.plane-text,
+    .sample-hd,.sample-text,.bar,.mobile-pics,.compatible,.compatible-text,.secure,.secure-text,.secure-text-2,.book-space,.book-space2,.james,
+    .laptop,.payment-solution,.pay-text,.android-page,.rectangle-box,.tag,.dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7,.dot8,.dot1-text,.dot2-text,.dot3-text,.dot4-text,
+    .dot5-text,.dot6-text,.dot7-text,.dot8-text,.playstore-bottom,.twitter,.facebook,.instagram,.linkedin,.slack,.faqs{
+        margin-left:-100px;
+    }
+}
